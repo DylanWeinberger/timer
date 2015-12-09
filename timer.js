@@ -57,10 +57,10 @@ $(document).ready(function(){
 		// If minutes >10 append 0 to the front of the number
 		// else do nothing
 		$("#second").text(s);
-		$("#millisecond").text(l);
+		$("#milliseconds").text(l);
 
 
-	}, 10);
+	}, 1000);
 
 	// set the clock to be on 12 hour not 24
 	// hint use %
