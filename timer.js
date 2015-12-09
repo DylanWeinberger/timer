@@ -10,6 +10,7 @@ $(document).ready(function(){
 		// date.setTime(1332403582588);
 		$("#zero_min").hide();
 		$("#zero_hour").hide();
+		$("#zero_second").hide();
 // if statement regarding modulus
 	if (h == 12 || h == 0) { 
 		// $("#hour").text(h % 12 + 12); 
@@ -36,6 +37,14 @@ $(document).ready(function(){
 		// do nothing
 	}
 
+
+	if (s < 10) {
+		// if m is less than 10 it will show the zero
+		$("#zero_second").show();
+	} else {
+		// do nothing
+	}
+
 		// $("#hour").text(h);
 		
 			// if this equals 12 or 24 do something
@@ -49,11 +58,6 @@ $(document).ready(function(){
 		// else do nothing
 		$("#second").text(s);
 		$("#millisecond").text(l);
-
-
-
-
-date.setTime(0);
 
 
 	}, 10);
