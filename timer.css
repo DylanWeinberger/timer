@@ -1,0 +1,27 @@
+body{
+	margin: 2vw;
+	background-color: #c5c5c5
+}
+h1{
+	font-size: 10vw;
+	color: gold; 
+	text-align: center;
+	font-family: fantasy;
+}
+
+#timer{
+	border:solid black 5px;
+	width: 75vw;
+	height: 100%;
+	text-align: center;
+	margin:0 auto;
+	font-size: 10vw;
+	font-family: fantasy;
+	background-color: salmon;
+	padding: 6vw;
+	border-radius: 20vw;
+}
+#hour{
+	width: 1500px;
+	
+}
