@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	setInterval(function(){
 		var date = new Date();
@@ -66,3 +67,4 @@ date.setTime(0);
 
 
 });
+
